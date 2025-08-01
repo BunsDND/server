@@ -22,6 +22,7 @@ model Anislag {
   arp_C             String?
   arp_D             String?
   arp_E             String?
+  arp_F             String?
   name_owner        String
   title_no          String?
   area              String?
@@ -30,9 +31,9 @@ model Anislag {
   improvement_2     String?
   mch               String?
   oth               String?
-  cancel            String?
   index_no          String
   barangay          String
   cancel_reason     String?
   cancel_details    Json?
+  remarks           String?
 }
